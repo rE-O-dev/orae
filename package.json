@@ -1,0 +1,38 @@
+{
+  "name": "orae",
+  "version": "1.0.0",
+  "description": "orae interview",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "devserver": "webpack-dev-server --open --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rE-O-dev/orae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rE-O-dev/orae/issues"
+  },
+  "homepage": "https://github.com/rE-O-dev/orae#readme"
+}
