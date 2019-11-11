@@ -1,9 +1,5 @@
-doctype html
-html
-    head
-    body
-        include ./layout/header.pug
-        script(src="/dist/bundle.js" type="text/javascript")
-        div hello world
+extends ./layout/layout.pug
 
-        include ./layout/footer.pug
+block content
+    div block test
+    button#join-chat-room join
